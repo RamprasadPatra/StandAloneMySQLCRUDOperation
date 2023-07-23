@@ -16,7 +16,8 @@ public class UserDAO {
 	private String jdbcUsername="root";
 	private String jdbcPassword="tiger";
 	
-	private static final String INSERT_USER_SQL="insert into users" + "(name,email,country) values" + "(?,?,?);"; 
+	private static final
+	String INSERT_USER_SQL="insert into users" + "(name,email,country) values" + "(?,?,?);"; 
 	
 	private static final String SELECT_USER_BY_ID="select id,name,email,country from users where id=?";
 	private static final String SELECT_ALL_USERS="select * from users";
